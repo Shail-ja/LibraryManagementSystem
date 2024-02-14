@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="css/lms.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="Main">
+    <div id="Home">
+        <header class="header">
+            <div class="header-1">
+                <div class="logo"><i class="fa-solid fa-book"></i>S Library</div>
+                <nav class="tabs">
+                    <a href="#Home" ><h3> Home </h3></a>
+                    <a href="#About" ><h3> About </h3></a>
+                    <a href="#Books"><h3> Books </h3></a>
+                    <a href="#Contacts"><h3> Contact Us </h3> </a>
+                </nav>
+                <form class="search-form">
+                    <input type="search" name="" placeholder="search here..." id="search-box">
+                    <label for="search-box" class="fas fa-search"></label>
+                </form>
+                <button id="search-btn" class="fas fa-search"></button>
+                <button class="tab" id="login-btn" ><h3>Log In</h3></button>
+            </div>
+        </header>
+        <img src="https://img.freepik.com/free-vector/audio-books-isometric-composition-with-character-female-librarian-with-book-shelves-inside-smartphone-screen-frame-vector-illustration_1284-80591.jpg?size=626&ext=jpg&ga=GA1.1.324395487.1697661821&semt=ais">
+    
+        <div id="bottom">
+            <h2>Contact Us:</h2>
+            <h3>Addess: Columbia </h3>
+            <h3>Email: Slibrary@gmail.com</h3>
+        </div>
+    </div>
+
+    <div class="Login-form">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="" >
+            <h3>Sign In</h3>
+            <span>username</span>
+            <input type="email" class="box" id="user" placeholder="enter your email">
+            <span>password</span>
+            <input type="password" class="box" id="password" placeholder="enter your password">
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <button type="submit" class="btn" formaction="http://127.0.0.1:5501/lms2.html">Sign In</button>
+            <p>forget password ?<a href="#">Click here</a></p>
+            <p>Don't have an account ?<a href="#">Create one</a></form></p>
+        </form>
+    </div>
+
+    <div id="About">
+        <h1>About Us</h1>
+        <img src="https://img.freepik.com/free-photo/crop-hands-using-tablet-library_23-2147845934.jpg?size=626&ext=jpg&ga=GA1.1.324395487.1697661821&semt=ais">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum nulla repudiandae animi ex id provident? Reiciendis laborum esse id voluptates vel dolore delectus nemo, ipsum excepturi possimus soluta minus.</p>
+    </div>
+
+    <div id="Contacts">
+        <div class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2> 
+            <h2>Newest Book Updates</h2>
+            <input type="email" class="box" id="mails" placeholder="Type your email here...">
+            <input type="submit" value="subscribe" class="sub-btn">
+        </div>
+        <div class="links">
+            <div class="logo"><i class="fa-solid fa-book"></i>S Library
+            <br>
+            <p>S Library's website that consists of all genres of bookss from around the world </p>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>Quick Links</th>
+                    <th>Customer Access</th>
+                    <th>Social Media</th>
+                </tr>
+                <tr>
+                    <td>Home</td>
+                    <td>My Account</td>
+                    <td><i class="fa-brands fa-facebook"></i></td>
+                </tr>
+                <tr>
+                    <td>About Us</td>
+                    <td>Issued Books</td>
+                    <td><i class="fa-brands fa-x-twitter"></i></td>
+                </tr>
+                <tr>
+                    <td>Books</td>
+                    <td>Privacy Policy</td>
+                    <td><i class="fa-brands fa-instagram"></i></td>
+                </tr>
+                <tr>
+                    <td>Help</td>
+                    <td>FAQ</td>
+                    <td><i class="fa-regular fa-envelope"></i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Terms</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+  
+</div>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
