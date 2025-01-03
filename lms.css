@@ -170,6 +170,7 @@ html::-webkit-scrollbar-thumb{
 #search-btn:hover{
     color: var(--green);
 }
+
 .Login-form{
     display:flex;
     align-items: center;
