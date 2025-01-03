@@ -170,7 +170,8 @@ html::-webkit-scrollbar-thumb{
 #search-btn:hover{
     color: var(--green);
 }
-.Login-form{
+
+.Login-form, .signup-form{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +186,7 @@ html::-webkit-scrollbar-thumb{
     right:0%;
 }
 
-.Login-form form{
+.Login-form form, .signup-form form{
     background-color: #fff;
     border: var(--border);
     width: 40rem;
@@ -195,20 +196,20 @@ html::-webkit-scrollbar-thumb{
     border-radius: .5rem;
 }
 
-.Login-form form h3{
+.Login-form form h3, .signup-form form h3{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
     text-align: center;
 }
 
-.Login-form form span{
+.Login-form form span, .signup-form form span{
     display: block;
     padding-top: 1rem;
     font-size: 1.5rem;
 }
 
-.Login-form form .box{
+.Login-form form .box, .signup-form form .box{
     margin:.7rem 0rem;
     font-size: 1.5rem;
     border: var(--border);
@@ -219,14 +220,14 @@ html::-webkit-scrollbar-thumb{
     width: 100%;
 }
 
-.Login-form form .checkbox{
+.Login-form form .checkbox, .signup-form form .checkbox{
     display: flex;
     align-items: center;
     gap: .5rem;
     padding: 1rem 0;
 }
 
-.Login-form form .checkbox label{
+.Login-form form .checkbox label, .signup-form form .checkbox label{
     font-size: 1.5rem;
     color: var(--light-color);
     cursor: pointer;
@@ -249,18 +250,18 @@ html::-webkit-scrollbar-thumb{
     background: var(--dark-color);
 }
 
-.Login-form form p{
+.Login-form form p, .signup-form form p{
     padding-top: .8rem;
     color: var(--light-color);
     font-size: 1.5rem;
 }
 
-.Login-form form p a{
+.Login-form form p a, .signup-form form p a{
     text-decoration: underline;
     color: var(--green);
 }
 
-.Login-form #close-login-btn{
+.Login-form #close-login-btn, .signup-form #close-signup-btn{
     position: absolute;
     top: 1.5rem;
     right: 2.5rem;
@@ -269,7 +270,7 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
 }
 
-.Login-form #close-login-btn:hover{
+.Login-form #close-login-btn:hover, .signup-form #close-signup-btn:hover{
     color:red;
 }
 
@@ -428,7 +429,7 @@ i:hover{
 
 
 
-@media(max-width: 991px){
+@media screen and (max-width: 991px){
 
     html{
         font-size: 55%;
@@ -476,5 +477,10 @@ i:hover{
 
     .header .header-1{
         padding: 2rem;
+    }
+
+    #Home > img {
+        height: 60%;
+        top: 20%;
     }
 }

@@ -24,6 +24,7 @@
                     <label for="search-box" class="fas fa-search"></label>
                 </form>
                 <button id="search-btn" class="fas fa-search"></button>
+                <button class="tab" id="signup-btn" ><h3>Sign Up</h3></button>
                 <button class="tab" id="login-btn" ><h3>Log In</h3></button>
             </div>
         </header>
@@ -35,11 +36,31 @@
             <h3>Email: Slibrary@gmail.com</h3>
         </div>
     </div>
+    
+    <div class="signup-form">
+        <div id="close-signup-btn" class="fas fa-times"></div>
+        <form action="" >
+            <h3>Sign Up</h3>
+            <span>Name</span>
+            <input type="name" class="box" id="name" placeholder="enter your name">
+            <span>Email</span>
+            <input type="email" class="box" id="email" placeholder="enter your email">            
+            <span>Phone Number</span>
+            <input type="phone" class="box" id="phone" placeholder="enter your phone number">
+            <span>password</span>
+            <input type="password" class="box" id="password" placeholder="enter your password">
+            <div class="checkbox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <button type="submit" class="btn" formaction="lms2.html">Sign Up</button>
+        </form>
+    </div>
 
     <div class="Login-form">
         <div id="close-login-btn" class="fas fa-times"></div>
         <form action="" >
-            <h3>Sign In</h3>
+            <h3>Log In</h3>
             <span>username</span>
             <input type="email" class="box" id="user" placeholder="enter your email">
             <span>password</span>
@@ -48,9 +69,9 @@
                 <input type="checkbox" id="remember-me">
                 <label for="remember-me">remember me</label>
             </div>
-            <button type="submit" class="btn" formaction="http://127.0.0.1:5501/lms2.html">Sign In</button>
-            <p>forget password ?<a href="#">Click here</a></p>
-            <p>Don't have an account ?<a href="#">Create one</a></form></p>
+            <button type="submit" class="btn" formaction="lms2.html">Log In</button>
+            <p>forget password ?  <a href="#">Click here</a></p>
+            <p>Don't have an account ?  <a href="#">Create one</a></form></p>
         </form>
     </div>
 
