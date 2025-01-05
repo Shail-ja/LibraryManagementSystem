@@ -423,7 +423,7 @@ i:hover{
 
 
 
-@media(max-width: 991px){
+@media screen and (max-width: 991px){
 
     html{
         font-size: 50%;
@@ -522,3 +522,17 @@ i:hover{
     }
 
 }
+<<<<<<< HEAD
+=======
+
+@media(max-width: 450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .header .header-1{
+        padding: 2rem;
+    }
+}
+>>>>>>> 6a2ede0343b8906299df8c0211de470502c5af57
