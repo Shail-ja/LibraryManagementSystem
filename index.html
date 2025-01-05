@@ -8,28 +8,44 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<div id="Main">
+<div id="Main">    
+    <header class="header">
+        <div class="header-1">
+            <div class="logo"><i class="fa-solid fa-book"></i>S Library</div>
+            <nav class="tabs">
+                <a href="#Home" ><h3> Home </h3></a>
+                <a href="#About" ><h3> About </h3></a>
+                <a href="#Books"><h3> Books </h3></a>
+                <a href="#Contacts"><h3> Contact Us </h3> </a>
+            </nav>
+            <form class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <nav class="tab">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+                <button id="signup-btn" ><h3>Sign Up</h3></button>
+                <button id="login-btn" ><h3>Log In</h3></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home section starts -->
+
     <div id="Home">
-        <header class="header">
-            <div class="header-1">
-                <div class="logo"><i class="fa-solid fa-book"></i>S Library</div>
-                <nav class="tabs">
-                    <a href="#Home" ><h3> Home </h3></a>
-                    <a href="#About" ><h3> About </h3></a>
-                    <a href="#Books"><h3> Books </h3></a>
-                    <a href="#Contacts"><h3> Contact Us </h3> </a>
-                </nav>
-                <form class="search-form">
-                    <input type="search" name="" placeholder="search here..." id="search-box">
-                    <label for="search-box" class="fas fa-search"></label>
-                </form>
-                <button id="search-btn" class="fas fa-search"></button>
-                <button class="tab" id="signup-btn" ><h3>Sign Up</h3></button>
-                <button class="tab" id="login-btn" ><h3>Log In</h3></button>
+        <div class="book-slider">
+            <div class="wrapper">
+                <a href="#"><img src="book-1.jpg" alt=""></a>
+                <a href="#"><img src="book-2.jpg" alt=""></a>
+                <a href="#"><img src="book-3.jpg" alt=""></a>
+                <a href="#"><img src="book-4.jpg" alt=""></a>
+                <a href="#"><img src="book-5.jpg" alt=""></a>
+                <a href="#"><img src="book-6.jpg" alt=""></a>
             </div>
-        </header>
+        </div>
+
         <img src="https://img.freepik.com/free-vector/audio-books-isometric-composition-with-character-female-librarian-with-book-shelves-inside-smartphone-screen-frame-vector-illustration_1284-80591.jpg?size=626&ext=jpg&ga=GA1.1.324395487.1697661821&semt=ais">
-    
+               
         <div id="bottom">
             <h2>Contact Us:</h2>
             <h3>Addess: Columbia </h3>
@@ -125,13 +141,9 @@
                     <td>Terms</td>
                 </tr>
             </table>
-
-        </div>
-
+        </div>  
     </div>
-  
 </div>
-
 
 <script src="script.js"></script>
     
