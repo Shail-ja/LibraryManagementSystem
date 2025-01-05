@@ -55,12 +55,6 @@ html::-webkit-scrollbar-thumb{
     position:relative;
 }
 
-#Home{
-    height: 100vh;
-    width: 100vw;
-    position:relative;
-}
-
 .header .header-1{
     background:#fff;
     padding: 0.5rem 5%;
@@ -267,11 +261,47 @@ html::-webkit-scrollbar-thumb{
     color:red;
 }
 
+#Home{
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#Home .wrapper{
+    flex: 1 1 50rem;
+    text-align: center;
+    margin: 6rem;
+}
+
+#Home .book-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin: 6rem;
+}
+
+#Home .book-slider a img{
+    height: 20rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+#Home .book-slider a:hover img{
+    transform: scale(0.9);
+}
+
+#Home .book-slider .stand{
+    width: 70%;
+    margin-top: -7rem;
+}
 #Home>img{
     float: inline-end;
     right: 5%;
     height: 70%;
-    top:24%;
+    top:12%;
     position: relative;
 
 }

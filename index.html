@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Management System</title>
     <link rel="stylesheet" href="lms.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
@@ -33,15 +34,16 @@
     <!-- Home section starts -->
 
     <div id="Home">
-        <div class="book-slider">
-            <div class="wrapper">
-                <a href="#"><img src="book-1.jpg" alt=""></a>
-                <a href="#"><img src="book-2.jpg" alt=""></a>
-                <a href="#"><img src="book-3.jpg" alt=""></a>
-                <a href="#"><img src="book-4.jpg" alt=""></a>
-                <a href="#"><img src="book-5.jpg" alt=""></a>
-                <a href="#"><img src="book-6.jpg" alt=""></a>
+        <div class="swiper book-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="book-2.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="book-3.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="book-1.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="book-4.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="book-5.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="book-6.jpg" alt=""></a>
             </div>
+            <img src="stand.png" alt="" class="stand">
         </div>
 
         <img src="https://img.freepik.com/free-vector/audio-books-isometric-composition-with-character-female-librarian-with-book-shelves-inside-smartphone-screen-frame-vector-illustration_1284-80591.jpg?size=626&ext=jpg&ga=GA1.1.324395487.1697661821&semt=ais">
@@ -146,6 +148,32 @@
 </div>
 
 <script src="script.js"></script>
-    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+
 </body>
 </html>
