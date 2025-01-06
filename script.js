@@ -47,6 +47,30 @@ document.querySelector('#close-signup-btn').onclick = () =>{
     signupForm.classList.remove('active');
 }
 
+// let themeToggler = document.querySelector("#theme-toggler");
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".book-slider", {  
+        loop: true,
+        spaceBetween: -20,
+        centeredSlides: true,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: -100,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        },
+    });
+});
 
 
 

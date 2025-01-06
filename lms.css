@@ -272,16 +272,21 @@ html::-webkit-scrollbar-thumb{
 }
 
 #Home .wrapper{
-    flex: 1 1 50rem;
+    flex: 1 1 555rem;
     text-align: center;
     margin: 6rem;
 }
 
 #Home .book-slider{
-    flex: 1 1 42rem;
+    flex: 1 1 50rem;
     text-align: center;
-    margin: 6rem;
+    margin: 15rem;
 }
+
+/* .swiper-slide{
+    display: flex;
+    justify-content: center;
+} */
 
 #Home .book-slider a img{
     height: 20rem;
@@ -294,16 +299,16 @@ html::-webkit-scrollbar-thumb{
 }
 
 #Home .book-slider .stand{
-    width: 70%;
-    margin-top: -7rem;
+    width: 100%;
+    margin-top: -6.5rem;
 }
+
 #Home>img{
     float: inline-end;
     right: 5%;
     height: 70%;
     top:12%;
     position: relative;
-
 }
 
 #Home>#bottom{
@@ -552,17 +557,3 @@ i:hover{
     }
 
 }
-<<<<<<< HEAD
-=======
-
-@media(max-width: 450px){
-
-    html{
-        font-size: 50%;
-    }
-
-    .header .header-1{
-        padding: 2rem;
-    }
-}
->>>>>>> 6a2ede0343b8906299df8c0211de470502c5af57
